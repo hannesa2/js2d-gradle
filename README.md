@@ -1,3 +1,5 @@
+<img src="https://plugins.gradle.org/m2/org/jsonschema2pojo/org.jsonschema2pojo.gradle.plugin/maven-metadata.xml.svg?label=Gradle%20Json%202%20Dataclass" />
+
 # Official [jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo) Gradle plugin.
 
 This plugin is aiming to take raw JSON or YAML raw files or schemas and convert to Java or Scala POJOs (Plain Old Java Object).
