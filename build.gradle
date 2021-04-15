@@ -1,7 +1,7 @@
 plugins {
     id 'groovy'
     id 'java-gradle-plugin'
-    id 'com.gradle.plugin-publish' version '0.14.0'
+    //id 'com.gradle.plugin-publish' version '0.14.0'
 }
 
 repositories {
@@ -13,11 +13,11 @@ ext {
     targetCompatibility = JavaVersion.VERSION_1_8
 }
 
-pluginBundle {
-    website = 'https://github.com/jsonschema2dataclass/js2d-gradle'
-    vcsUrl = 'https://github.com/jsonschema2dataclass/js2d-gradle.git'
-    tags = ['json-schema', 'jsonschema', 'generator', 'pojo', 'jsonschema2pojo', 'dataclass', 'data', 'json', 'generation', 'jsonschema2dataclass', 'java']
-}
+//pluginBundle {
+//    website = 'https://github.com/jsonschema2dataclass/js2d-gradle'
+//    vcsUrl = 'https://github.com/jsonschema2dataclass/js2d-gradle.git'
+//    tags = ['json-schema', 'jsonschema', 'generator', 'pojo', 'jsonschema2pojo', 'dataclass', 'data', 'json', 'generation', 'jsonschema2dataclass', 'java']
+//}
 
 
 gradlePlugin {
